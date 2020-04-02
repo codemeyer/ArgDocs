@@ -6,7 +6,7 @@ title: "ArgDocs: F1GP Multi-Setup Files"
 
 Multi-setup files contain a race and qualifying setup for each track, for a total of 32 setups.
 
-There is also a [single setup](/argdocs/file-formats/setups-single) file type containing
+There is also a [single setup](/argdocs/file-formats/setups-single/) file type containing
 a single race or qualifying setup for a specific track.
 
 <table class="table table-bordered table-striped table--tiny">

@@ -71,7 +71,7 @@ to enter one that would be cut off.
 
 For instance, using the in-game editing options a name such as "Heinz-Harald Frentzen" cannot
 be entered, because the game knows that it will be cut off. If you use a tool
-(such as [ArgEditor](/argeditor)) to create a name file, entering "Heinz-Harald Frentzen" will
+(such as [ArgEditor](/argeditor/)) to create a name file, entering "Heinz-Harald Frentzen" will
 be OK, but will appear in in-game messages as "Heinz-Harald Frentz" or similar.
 
 

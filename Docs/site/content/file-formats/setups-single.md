@@ -6,7 +6,7 @@ title: "ArgDocs: F1GP Single Setup Files"
 
 Single setup files contain just _one_ car setup.
 
-There is also a [multi-setup](multi-setup) file type containing a
+There is also a [multi-setup](/argdocs/setups-multi/) file type containing a
 race and qualifying setup for each track, for a total of 32 setups.
 
 <table class="table table-bordered table-striped table--tiny">
@@ -99,4 +99,4 @@ The setup data is 10 bytes long.
 ## Checksum
 
 The final four (4) bytes contain 
-the [checksum](/argdocs/misc/checksum) for the file.
+the [checksum](/argdocs/misc/checksum/) for the file.

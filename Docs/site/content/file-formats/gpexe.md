@@ -10,7 +10,7 @@ The GP.EXE file contains most of the various data.
 
 This represents the zero-based index of the byte in the file where the data ("Item") begins.
 
-In the data below, "D" indicates a [decompressed EXE](/argdocs/misc/decompressed-exe)
+In the data below, "D" indicates a [decompressed EXE](/argdocs/misc/decompressed-exe/)
 (using [UNP 4.11](http://unp.bencastricum.nl))
 
 <table class="table table-bordered table-striped">

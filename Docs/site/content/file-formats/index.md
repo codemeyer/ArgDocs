@@ -10,8 +10,8 @@ The F1GP file formats currently documented here are:
 - [Name Files](/argdocs/file-formats/names/)
 - [Saved Games (between season races)](/argdocs/file-formats/saves/)
 - [Saved Games (during race sessions)](/argdocs/file-formats/saves-racing/)
-- [Setup Files (single)](/argdocs/file-formats/setups-single)
-- [Setup Files (multi)](/argdocs/file-formats/setups-multi)
+- [Setup Files (single)](/argdocs/file-formats/setups-single/)
+- [Setup Files (multi)](/argdocs/file-formats/setups-multi/)
 - [Media Container Files](/argdocs/file-formats/media-containers/)
 - [Tracks](/argdocs/file-formats/track/)
 

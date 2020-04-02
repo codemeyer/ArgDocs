@@ -8,7 +8,7 @@ There are different kinds of saved games. The documentation here refers to
 games that have been saved _between races_ during a championship season.
 
 For information about games that are saved _during_ season races, see
-the [F1GP Saved Games(during races)](/argdocs/file-formats/saves-racing) page.
+the [F1GP Saved Games(during races)](/argdocs/file-formats/saves-racing/) page.
 
 <table class="table table-bordered table-striped table--tiny">
     <thead>
@@ -196,4 +196,4 @@ The names of drivers, teams and engines is stored in the file, starting at locat
 ## Checksum
 
 The final four (4) bytes, starting at index 3574, contain
-the [checksum](/argdocs/misc/checksum) for the file.
+the [checksum](/argdocs/misc/checksum/) for the file.

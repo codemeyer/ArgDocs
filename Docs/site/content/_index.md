@@ -22,4 +22,4 @@ Please send any feedback to [fredrik@codemeyer.net](mailto:fredrik@codemeyer.net
 
 ArgDocs would not have been possible without previous work and contributions
 by the wider F1GP community, both past and present. Please visit
-the [Acknowledgements](/acknowledgements) page for more details.
+the [Acknowledgements](/acknowledgements/) page for more details.

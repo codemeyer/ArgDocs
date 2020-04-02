@@ -8,7 +8,7 @@ There are different kinds of saved games. The documentation here refers to
 games that have been saved _during_ during a qualifying or race session.
 
 For information about games that are saved _between_ season races, see
-the [F1GP Saved Games (between races)](/argdocs/file-formats/saves) page.
+the [F1GP Saved Games (between races)](/argdocs/file-formats/saves/) page.
 
 <table class="table table-bordered table-striped table--tiny">
     <thead>
@@ -33,4 +33,4 @@ the [F1GP Saved Games (between races)](/argdocs/file-formats/saves) page.
 ## Checksum
 
 The final four (4) bytes contain
-the [checksum](/argdocs/misc/checksum) for the file.
+the [checksum](/argdocs/misc/checksum/) for the file.
