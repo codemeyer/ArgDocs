@@ -459,7 +459,7 @@ i.e. the Id parameter.
             </tr>
     </tbody>
 </table>
-<br/>
+
 
 
 ### Imola, San Marino
@@ -627,7 +627,6 @@ i.e. the Id parameter.
             </tr>
     </tbody>
 </table>
-<br/>
 
 
 ### Monte Carlo, Monaco
@@ -1002,7 +1001,6 @@ i.e. the Id parameter.
             </tr>
     </tbody>
 </table>
-<br/>
 
 
 ### Mexico City, Mexico
@@ -1115,7 +1113,6 @@ i.e. the Id parameter.
             </tr>
     </tbody>
 </table>
-<br/>
 
 
 ### Magny-Cours, France
@@ -1258,7 +1255,6 @@ i.e. the Id parameter.
             </tr>
     </tbody>
 </table>
-<br/>
 
 
 ### Silverstone, Great Britain
@@ -1401,7 +1397,6 @@ i.e. the Id parameter.
             </tr>
     </tbody>
 </table>
-<br/>
 
 
 ### Hockenheim, Germany
@@ -1559,7 +1554,6 @@ i.e. the Id parameter.
             </tr>
     </tbody>
 </table>
-<br/>
 
 
 ### Hungaroring, Hungary
@@ -1707,7 +1701,6 @@ i.e. the Id parameter.
             </tr>
     </tbody>
 </table>
-<br/>
 
 
 ### Spa-Francorchamps, Belgium
@@ -1910,7 +1903,6 @@ i.e. the Id parameter.
             </tr>
     </tbody>
 </table>
-<br/>
 
 
 ### Monza, Italy
@@ -2048,7 +2040,6 @@ i.e. the Id parameter.
             </tr>
     </tbody>
 </table>
-<br/>
 
 
 ### Estoril, Portugal
@@ -2191,7 +2182,6 @@ i.e. the Id parameter.
             </tr>
     </tbody>
 </table>
-<br/>
 
 
 ### Barcelona, Spain
@@ -2354,7 +2344,6 @@ i.e. the Id parameter.
             </tr>
     </tbody>
 </table>
-<br/>
 
 
 ### Suzuka, Japan
@@ -2522,7 +2511,6 @@ i.e. the Id parameter.
             </tr>
     </tbody>
 </table>
-<br/>
 
 
 ### Adelaide, Australia
