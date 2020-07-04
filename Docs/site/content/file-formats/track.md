@@ -14,8 +14,7 @@ has been deduced using Maxime Labelle's
 ["The Grand Prix 2 Track File Format (Beta 0.5)"](http://www.waa63.ch/racesim/TEIC/primer/GP2TrackFileFormat.htm)
 and by playing around with Paul Hoad's GP2 Track Editor. Another invaluable resource has been
 the [Chequered Flag](http://chequeredflag.sourceforge.net/) F1GP track editor by Barrie Millar, Klaus Six and René Smit.
-René Smit has also contributed a large amount of research, particularly regarding the
-camera definitions and computer car behavior.
+René Smit and Alejandro Caceres have also contributed a large amount of research and code.
 
 
 <table class="table table-bordered table-striped table--small">
@@ -65,12 +64,17 @@ The Offset section begins at $1000.
     <tbody>
         <tr>
             <td>$1000</td>
-            <td>Unknown Long 1</td>
+            <td>Base offset, always 0x1010 (4112)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>$1002</td>
+            <td>Unknown short</td>
             <td></td>
         </tr>
         <tr>
             <td>$1004</td>
-            <td>Unknown Long 2</td>
+            <td>Unknown short (or two unknown shorts?)</td>
             <td></td>
         </tr>
         <tr>
@@ -129,12 +133,16 @@ For the last item, the shape data ends when we reach the $100A object list data 
 
 ### Object Shape Details
 
-These are still not fully decomposed, but contain an identifier, a number of offsets, and
-varying amounts of data at these offsets. Most likely, the data represents points, lines,
-polygons, etc, to create a 3D object.
+Object shapes contain some ids and identifiers.
 
-The 3D objects in GP2 are built up in a similar fashion, and comparing those values to the ones
-in F1GP, more info will be discovered.
+They also contain five different groups of data, which are indicated by a number of offset
+values at the beginning of the data.
+
+The different groups are: graphic elements (polygons/bitmaps), scale values, points,
+vectors and graphic element lists.
+
+This section will be expanded soon.
+
 
 
 ## Object Settings
@@ -172,7 +180,7 @@ and colors.
     <tr>
         <td>Unknown</td>
         <td>short</td>
-        <td>Possibly color related for 3D objects</td>
+        <td>Possibly color related for 3D objects (bit flags?)</td>
     </tr>
     <tr>
         <td>Distance from Track</td>
@@ -191,14 +199,14 @@ and colors.
         <td>Angle Y/Z</td>
         <td>short</td>
         <td>
-            Angle Y/Z, except when Id=5, then it represents the index of
+            Angle Y/Z, except when Id=5 (or 1 or 13), then it represents the index of
             a <a href="/argdocs/track-data/trackside-objects/">track-side object</a>
         </td>
     </tr>
     <tr>
         <td>Unknown 2</td>
         <td>short</td>
-        <td>Possibly related to drawing order</td>
+        <td>Possibly related to drawing order (bit flags?)</td>
     </tr>
     <tr>
         <td>Height</td>

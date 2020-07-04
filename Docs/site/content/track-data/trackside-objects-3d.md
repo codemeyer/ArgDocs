@@ -113,7 +113,7 @@ Images will be posted eventually.
 Objects marked as "Not used" are never declared in an Object Setting.
 But perhaps they are used in some way?
 
-RefIndex is the value used when referring to the object in an Object Setting,
+RefId is the value used when referring to the object in an Object Setting,
 i.e. the Id parameter.
 
 
@@ -124,7 +124,7 @@ i.e. the Id parameter.
 <table class="table table-bordered table-striped table--medium">
     <thead>
         <tr>
-            <th style="width: 80px;" class="text-right">RefIndex</th>
+            <th style="width: 80px;" class="text-right">RefId</th>
             <th class="">Description</th>
             <th class="">Comment</th>
         </tr>
@@ -177,13 +177,13 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">26</td>
-                <td class="">?</td>
+                <td class=""></td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">27</td>
                 <td class="">Pit crew (changing tyres)</td>
-                <td class=""></td>
+                <td class="">Has no vectors, is only a collection of "flat" objects</td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">28</td>
@@ -192,17 +192,17 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">29</td>
-                <td class="">Bottom of pit building?</td>
+                <td class="">Pit building (base)</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">30</td>
-                <td class="">?</td>
-                <td class="">Not used</td>
+                <td class=""></td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">31</td>
-                <td class="">Pit building?</td>
+                <td class="">Pit building (top)</td>
                 <td class=""></td>
             </tr>
             <tr>
@@ -252,17 +252,17 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">41</td>
-                <td class="">Billboard</td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">42</td>
-                <td class="">Billboard</td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">43</td>
-                <td class="">Billboard</td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
@@ -316,7 +316,7 @@ i.e. the Id parameter.
 <table class="table table-bordered table-striped table--medium">
     <thead>
         <tr>
-            <th style="width: 80px;" class="text-right">RefIndex</th>
+            <th style="width: 80px;" class="text-right">RefId</th>
             <th class="">Description</th>
             <th class="">Comment</th>
         </tr>
@@ -335,7 +335,7 @@ i.e. the Id parameter.
             <tr>
                 <td style="width: 80px;" class="text-right">19</td>
                 <td class="">Grandstand (small?)</td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">20</td>
@@ -405,7 +405,7 @@ i.e. the Id parameter.
             <tr>
                 <td style="width: 80px;" class="text-right">33</td>
                 <td class="">Pit crew (changing tyres)</td>
-                <td class=""></td>
+                <td class="">Never placed with 0x80 command</td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">34</td>
@@ -444,17 +444,17 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">41</td>
-                <td class="">Billboard</td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">42</td>
-                <td class="">Billboard</td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">43</td>
-                <td class="">Billboard</td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
     </tbody>
@@ -469,7 +469,7 @@ i.e. the Id parameter.
 <table class="table table-bordered table-striped table--medium">
     <thead>
         <tr>
-            <th style="width: 80px;" class="text-right">RefIndex</th>
+            <th style="width: 80px;" class="text-right">RefId</th>
             <th class="">Description</th>
             <th class="">Comment</th>
         </tr>
@@ -482,13 +482,13 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">18</td>
-                <td class=""></td>
+                <td class="">Banner across track</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">19</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">20</td>
@@ -498,7 +498,7 @@ i.e. the Id parameter.
             <tr>
                 <td style="width: 80px;" class="text-right">21</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">22</td>
@@ -552,8 +552,8 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">32</td>
-                <td class=""></td>
-                <td class=""></td>
+                <td class="">Pit crew (changing tyres)</td>
+                <td class="">Never placed with 0x80 command</td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">33</td>
@@ -587,38 +587,38 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">39</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">40</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">41</td>
-                <td class="">Billboard (blue/red)</td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">42</td>
-                <td class=""></td>
+                <td class="">Ad billboard (large)</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">43</td>
-                <td class=""></td>
+                <td class="">Ad billboard (large)</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">44</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">45</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">46</td>
@@ -636,7 +636,7 @@ i.e. the Id parameter.
 <table class="table table-bordered table-striped table--medium">
     <thead>
         <tr>
-            <th style="width: 80px;" class="text-right">RefIndex</th>
+            <th style="width: 80px;" class="text-right">RefId</th>
             <th class="">Description</th>
             <th class="">Comment</th>
         </tr>
@@ -644,12 +644,12 @@ i.e. the Id parameter.
     <tbody>
             <tr>
                 <td style="width: 80px;" class="text-right">17</td>
-                <td class=""></td>
+                <td class="">Building above tunnel entrance</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">18</td>
-                <td class=""></td>
+                <td class="">Bridge across track</td>
                 <td class=""></td>
             </tr>
             <tr>
@@ -659,17 +659,17 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">20</td>
-                <td class=""></td>
+                <td class="">Building (white with green roof)</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">21</td>
-                <td class=""></td>
+                <td class="">Zebra crossing</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">22</td>
-                <td class=""></td>
+                <td class="">One-way arrow track marking</td>
                 <td class=""></td>
             </tr>
             <tr>
@@ -689,17 +689,17 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">26</td>
-                <td class=""></td>
+                <td class="">Tall building (hotel/apartments)</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">27</td>
-                <td class=""></td>
+                <td class="">Grandstand</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">28</td>
-                <td class=""></td>
+                <td class="">Banner across track</td>
                 <td class=""></td>
             </tr>
             <tr>
@@ -724,17 +724,17 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">33</td>
-                <td class=""></td>
+                <td class="">Crane</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">34</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">35</td>
-                <td class=""></td>
+                <td class="">Grandstand</td>
                 <td class=""></td>
             </tr>
             <tr>
@@ -749,12 +749,12 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">38</td>
-                <td class=""></td>
+                <td class="">Grandstand</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">39</td>
-                <td class=""></td>
+                <td class="">Building (large)</td>
                 <td class=""></td>
             </tr>
             <tr>
@@ -779,13 +779,13 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">44</td>
-                <td class=""></td>
+                <td class="">Yachts in water</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">45</td>
-                <td class=""></td>
-                <td class=""></td>
+                <td class="">Pit crew (changing tyres)</td>
+                <td class="">Never placed with 0x80 command</td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">46</td>
@@ -794,8 +794,8 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">47</td>
-                <td class="">Billboard</td>
-                <td class="">Not used</td>
+                <td class=""></td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">48</td>
@@ -819,37 +819,37 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">52</td>
-                <td class=""></td>
+                <td class="">Boat mast</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">53</td>
-                <td class=""></td>
+                <td class="">Window</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">54</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">55</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">56</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">57</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">58</td>
-                <td class=""></td>
+                <td class="">Distant body of water</td>
                 <td class=""></td>
             </tr>
     </tbody>
@@ -863,7 +863,7 @@ i.e. the Id parameter.
 <table class="table table-bordered table-striped table--medium">
     <thead>
         <tr>
-            <th style="width: 80px;" class="text-right">RefIndex</th>
+            <th style="width: 80px;" class="text-right">RefId</th>
             <th class="">Description</th>
             <th class="">Comment</th>
         </tr>
@@ -871,13 +871,13 @@ i.e. the Id parameter.
     <tbody>
             <tr>
                 <td style="width: 80px;" class="text-right">17</td>
-                <td class=""></td>
+                <td class="">Banner across track</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">18</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">19</td>
@@ -891,7 +891,7 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">21</td>
-                <td class=""></td>
+                <td class="">Crane</td>
                 <td class=""></td>
             </tr>
             <tr>
@@ -906,7 +906,7 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">24</td>
-                <td class=""></td>
+                <td class="">Grandstand</td>
                 <td class=""></td>
             </tr>
             <tr>
@@ -947,17 +947,17 @@ i.e. the Id parameter.
             <tr>
                 <td style="width: 80px;" class="text-right">32</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">33</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">34</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">35</td>
@@ -981,22 +981,22 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">39</td>
-                <td class="">Billboard</td>
+                <td class=""></td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">40</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">41</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">42</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
     </tbody>
@@ -1010,7 +1010,7 @@ i.e. the Id parameter.
 <table class="table table-bordered table-striped table--medium">
     <thead>
         <tr>
-            <th style="width: 80px;" class="text-right">RefIndex</th>
+            <th style="width: 80px;" class="text-right">RefId</th>
             <th class="">Description</th>
             <th class="">Comment</th>
         </tr>
@@ -1044,11 +1044,11 @@ i.e. the Id parameter.
             <tr>
                 <td style="width: 80px;" class="text-right">22</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">23</td>
-                <td class=""></td>
+                <td class="">Grandstand</td>
                 <td class=""></td>
             </tr>
             <tr>
@@ -1059,7 +1059,7 @@ i.e. the Id parameter.
             <tr>
                 <td style="width: 80px;" class="text-right">25</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">26</td>
@@ -1068,8 +1068,8 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">27</td>
-                <td class=""></td>
-                <td class=""></td>
+                <td class="">Pit crew (changing tyres)</td>
+                <td class="">Never placed with 0x80 command</td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">28</td>
@@ -1093,17 +1093,17 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">32</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">33</td>
-                <td class="">Billboard</td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">34</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
@@ -1122,7 +1122,7 @@ i.e. the Id parameter.
 <table class="table table-bordered table-striped table--medium">
     <thead>
         <tr>
-            <th style="width: 80px;" class="text-right">RefIndex</th>
+            <th style="width: 80px;" class="text-right">RefId</th>
             <th class="">Description</th>
             <th class="">Comment</th>
         </tr>
@@ -1130,13 +1130,13 @@ i.e. the Id parameter.
     <tbody>
             <tr>
                 <td style="width: 80px;" class="text-right">17</td>
-                <td class=""></td>
+                <td class="">Banner across track</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">18</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">19</td>
@@ -1145,7 +1145,7 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">20</td>
-                <td class=""></td>
+                <td class="">Grandstand</td>
                 <td class=""></td>
             </tr>
             <tr>
@@ -1221,17 +1221,17 @@ i.e. the Id parameter.
             <tr>
                 <td style="width: 80px;" class="text-right">35</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">36</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">37</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">38</td>
@@ -1240,17 +1240,17 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">39</td>
-                <td class="">Billboard</td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">40</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">41</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
     </tbody>
@@ -1264,7 +1264,7 @@ i.e. the Id parameter.
 <table class="table table-bordered table-striped table--medium">
     <thead>
         <tr>
-            <th style="width: 80px;" class="text-right">RefIndex</th>
+            <th style="width: 80px;" class="text-right">RefId</th>
             <th class="">Description</th>
             <th class="">Comment</th>
         </tr>
@@ -1273,7 +1273,7 @@ i.e. the Id parameter.
             <tr>
                 <td style="width: 80px;" class="text-right">17</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">18</td>
@@ -1312,8 +1312,8 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">25</td>
-                <td class=""></td>
-                <td class=""></td>
+                <td class="">Pit crew (changing tyres)</td>
+                <td class="">Never placed with 0x80 command</td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">26</td>
@@ -1353,7 +1353,7 @@ i.e. the Id parameter.
             <tr>
                 <td style="width: 80px;" class="text-right">33</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">34</td>
@@ -1363,7 +1363,7 @@ i.e. the Id parameter.
             <tr>
                 <td style="width: 80px;" class="text-right">35</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">36</td>
@@ -1372,17 +1372,17 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">37</td>
-                <td class="">Billboard</td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">38</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">39</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
@@ -1402,11 +1402,12 @@ i.e. the Id parameter.
 ### Hockenheim, Germany
 
 <a id="hockenheim-germany"></a>
+<!-- F1CT09.DAT -->
 
 <table class="table table-bordered table-striped table--medium">
     <thead>
         <tr>
-            <th style="width: 80px;" class="text-right">RefIndex</th>
+            <th style="width: 80px;" class="text-right">RefId</th>
             <th class="">Description</th>
             <th class="">Comment</th>
         </tr>
@@ -1434,7 +1435,7 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">21</td>
-                <td class=""></td>
+                <td class="">Grandstand</td>
                 <td class=""></td>
             </tr>
             <tr>
@@ -1444,13 +1445,13 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">23</td>
-                <td class=""></td>
+                <td class="">Banner across track</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">24</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">25</td>
@@ -1474,8 +1475,8 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">29</td>
-                <td class=""></td>
-                <td class=""></td>
+                <td class="">Pit crew (changing tyres)</td>
+                <td class="">Never placed with 0x80 command</td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">30</td>
@@ -1495,17 +1496,17 @@ i.e. the Id parameter.
             <tr>
                 <td style="width: 80px;" class="text-right">33</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">34</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">35</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">36</td>
@@ -1529,7 +1530,7 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">40</td>
-                <td class="">Billboard</td>
+                <td class=""></td>
                 <td class=""></td>
             </tr>
             <tr>
@@ -1539,17 +1540,17 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">42</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">43</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">44</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
     </tbody>
@@ -1559,11 +1560,12 @@ i.e. the Id parameter.
 ### Hungaroring, Hungary
 
 <a id="hungaroring-hungary"></a>
+<!-- F1CT10.DAT -->
 
 <table class="table table-bordered table-striped table--medium">
     <thead>
         <tr>
-            <th style="width: 80px;" class="text-right">RefIndex</th>
+            <th style="width: 80px;" class="text-right">RefId</th>
             <th class="">Description</th>
             <th class="">Comment</th>
         </tr>
@@ -1591,13 +1593,13 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">21</td>
-                <td class=""></td>
+                <td class="">Banner across track</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">22</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">23</td>
@@ -1636,8 +1638,8 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">30</td>
-                <td class=""></td>
-                <td class=""></td>
+                <td class="">Pit crew (changing tyres)</td>
+                <td class="">Never placed with 0x80 command</td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">31</td>
@@ -1666,13 +1668,13 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">36</td>
-                <td class="">Billboard</td>
-                <td class="">Not used</td>
+                <td class=""></td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">37</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">38</td>
@@ -1686,17 +1688,17 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">40</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">41</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">42</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
     </tbody>
@@ -1706,11 +1708,12 @@ i.e. the Id parameter.
 ### Spa-Francorchamps, Belgium
 
 <a id="spa-francorchamps-belgium"></a>
+<!-- F1CT11.DAT -->
 
 <table class="table table-bordered table-striped table--medium">
     <thead>
         <tr>
-            <th style="width: 80px;" class="text-right">RefIndex</th>
+            <th style="width: 80px;" class="text-right">RefId</th>
             <th class="">Description</th>
             <th class="">Comment</th>
         </tr>
@@ -1743,13 +1746,13 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">22</td>
-                <td class=""></td>
+                <td class="">Banner across track</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">23</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">24</td>
@@ -1758,7 +1761,7 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">25</td>
-                <td class=""></td>
+                <td class="">Grandstand</td>
                 <td class=""></td>
             </tr>
             <tr>
@@ -1778,7 +1781,7 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">29</td>
-                <td class=""></td>
+                <td class="">Crane</td>
                 <td class=""></td>
             </tr>
             <tr>
@@ -1813,8 +1816,8 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">36</td>
-                <td class=""></td>
-                <td class=""></td>
+                <td class="">Pit crew (changing tyres)</td>
+                <td class="">Never placed with 0x80 command</td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">37</td>
@@ -1854,17 +1857,17 @@ i.e. the Id parameter.
             <tr>
                 <td style="width: 80px;" class="text-right">44</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">45</td>
-                <td class="">Billboard</td>
-                <td class="">Not used</td>
+                <td class=""></td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">46</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">47</td>
@@ -1878,17 +1881,17 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">49</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">50</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">51</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
@@ -1908,11 +1911,12 @@ i.e. the Id parameter.
 ### Monza, Italy
 
 <a id="monza-italy"></a>
+<!-- F1CT12.DAT -->
 
 <table class="table table-bordered table-striped table--medium">
     <thead>
         <tr>
-            <th style="width: 80px;" class="text-right">RefIndex</th>
+            <th style="width: 80px;" class="text-right">RefId</th>
             <th class="">Description</th>
             <th class="">Comment</th>
         </tr>
@@ -1946,7 +1950,7 @@ i.e. the Id parameter.
             <tr>
                 <td style="width: 80px;" class="text-right">22</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">23</td>
@@ -1975,7 +1979,7 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">28</td>
-                <td class=""></td>
+                <td class="">Grandstand</td>
                 <td class=""></td>
             </tr>
             <tr>
@@ -1985,8 +1989,8 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">30</td>
-                <td class=""></td>
-                <td class=""></td>
+                <td class="">Pit crew (changing tyres)</td>
+                <td class="">Never placed with 0x80 command</td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">31</td>
@@ -2001,16 +2005,16 @@ i.e. the Id parameter.
             <tr>
                 <td style="width: 80px;" class="text-right">33</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">34</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">35</td>
-                <td class="">Billboard</td>
+                <td class=""></td>
                 <td class=""></td>
             </tr>
             <tr>
@@ -2020,17 +2024,17 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">37</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">38</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">39</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
@@ -2045,11 +2049,12 @@ i.e. the Id parameter.
 ### Estoril, Portugal
 
 <a id="estoril-portugal"></a>
+<!-- F1CT13.DAT -->
 
 <table class="table table-bordered table-striped table--medium">
     <thead>
         <tr>
-            <th style="width: 80px;" class="text-right">RefIndex</th>
+            <th style="width: 80px;" class="text-right">RefId</th>
             <th class="">Description</th>
             <th class="">Comment</th>
         </tr>
@@ -2072,12 +2077,12 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">20</td>
-                <td class=""></td>
+                <td class="">Crane</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">21</td>
-                <td class=""></td>
+                <td class="">Grandstand</td>
                 <td class=""></td>
             </tr>
             <tr>
@@ -2102,13 +2107,13 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">26</td>
-                <td class=""></td>
+                <td class="">Banner across track</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">27</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">28</td>
@@ -2132,8 +2137,8 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">32</td>
-                <td class=""></td>
-                <td class=""></td>
+                <td class="">Pit crew (changing tyres)</td>
+                <td class="">Never placed with 0x80 command</td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">33</td>
@@ -2148,17 +2153,17 @@ i.e. the Id parameter.
             <tr>
                 <td style="width: 80px;" class="text-right">35</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">36</td>
-                <td class="">Billboard</td>
-                <td class="">Not used</td>
+                <td class=""></td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">37</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">38</td>
@@ -2167,17 +2172,17 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">39</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">40</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">41</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
     </tbody>
@@ -2191,7 +2196,7 @@ i.e. the Id parameter.
 <table class="table table-bordered table-striped table--medium">
     <thead>
         <tr>
-            <th style="width: 80px;" class="text-right">RefIndex</th>
+            <th style="width: 80px;" class="text-right">RefId</th>
             <th class="">Description</th>
             <th class="">Comment</th>
         </tr>
@@ -2205,11 +2210,11 @@ i.e. the Id parameter.
             <tr>
                 <td style="width: 80px;" class="text-right">18</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">19</td>
-                <td class=""></td>
+                <td class="">Crane</td>
                 <td class=""></td>
             </tr>
             <tr>
@@ -2224,7 +2229,7 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">22</td>
-                <td class=""></td>
+                <td class="">Grandstand</td>
                 <td class=""></td>
             </tr>
             <tr>
@@ -2289,8 +2294,8 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">35</td>
-                <td class=""></td>
-                <td class=""></td>
+                <td class="">Pit crew (changing tyres)</td>
+                <td class="">Never placed with 0x80 command</td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">36</td>
@@ -2315,31 +2320,31 @@ i.e. the Id parameter.
             <tr>
                 <td style="width: 80px;" class="text-right">40</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">41</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">42</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">43</td>
-                <td class="">Billboard</td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">44</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">45</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
     </tbody>
@@ -2353,7 +2358,7 @@ i.e. the Id parameter.
 <table class="table table-bordered table-striped table--medium">
     <thead>
         <tr>
-            <th style="width: 80px;" class="text-right">RefIndex</th>
+            <th style="width: 80px;" class="text-right">RefId</th>
             <th class="">Description</th>
             <th class="">Comment</th>
         </tr>
@@ -2407,7 +2412,7 @@ i.e. the Id parameter.
             <tr>
                 <td style="width: 80px;" class="text-right">26</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">27</td>
@@ -2421,13 +2426,13 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">29</td>
-                <td class=""></td>
+                <td class="">Crane</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">30</td>
-                <td class=""></td>
-                <td class=""></td>
+                <td class="">Pit crew (changing tyres)</td>
+                <td class="">Never placed with 0x80 command</td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">31</td>
@@ -2437,17 +2442,17 @@ i.e. the Id parameter.
             <tr>
                 <td style="width: 80px;" class="text-right">32</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">33</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">34</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">35</td>
@@ -2471,7 +2476,7 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">39</td>
-                <td class="">Billboard</td>
+                <td class=""></td>
                 <td class=""></td>
             </tr>
             <tr>
@@ -2491,17 +2496,17 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">43</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">44</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">45</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
@@ -2520,7 +2525,7 @@ i.e. the Id parameter.
 <table class="table table-bordered table-striped table--medium">
     <thead>
         <tr>
-            <th style="width: 80px;" class="text-right">RefIndex</th>
+            <th style="width: 80px;" class="text-right">RefId</th>
             <th class="">Description</th>
             <th class="">Comment</th>
         </tr>
@@ -2528,7 +2533,7 @@ i.e. the Id parameter.
     <tbody>
             <tr>
                 <td style="width: 80px;" class="text-right">17</td>
-                <td class=""></td>
+                <td class="">Grandstand</td>
                 <td class=""></td>
             </tr>
             <tr>
@@ -2553,7 +2558,7 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">22</td>
-                <td class=""></td>
+                <td class="">Crane</td>
                 <td class=""></td>
             </tr>
             <tr>
@@ -2599,12 +2604,12 @@ i.e. the Id parameter.
             <tr>
                 <td style="width: 80px;" class="text-right">31</td>
                 <td class=""></td>
-                <td class="">Not used</td>
+                <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">32</td>
-                <td class=""></td>
-                <td class=""></td>
+                <td class="">Pit crew (changing tyres)</td>
+                <td class="">Never placed with 0x80 command</td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">33</td>
@@ -2623,8 +2628,8 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">36</td>
-                <td class="">Billboard</td>
-                <td class=""></td>
+                <td class="">Truck with crane</td>
+                <td class="">Top half modelled only</td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">37</td>
@@ -2643,17 +2648,17 @@ i.e. the Id parameter.
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">40</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">41</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">42</td>
-                <td class=""></td>
+                <td class="">Ad billboard</td>
                 <td class=""></td>
             </tr>
     </tbody>

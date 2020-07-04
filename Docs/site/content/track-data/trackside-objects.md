@@ -26,6 +26,48 @@ Interesting to note is that these IDs were carried over to Grand Prix 2 on a one
     </thead>
     <tbody>
         <tr>
+            <td class="text-right">75</td>
+            <td>100 sign</td>
+            <td class="text-right"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="text-right">76</td>
+            <td>200 sign</td>
+            <td class="text-right"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="text-right">77</td>
+            <td>300 sign</td>
+            <td class="text-right"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="text-right">78</td>
+            <td>Arrow hard right sign</td>
+            <td class="text-right"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="text-right">79</td>
+            <td>Arrow easy right sign</td>
+            <td class="text-right"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="text-right">80</td>
+            <td>Arrow hard left sign</td>
+            <td class="text-right"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="text-right">81</td>
+            <td>Arrow easy left sign</td>
+            <td class="text-right"></td>
+            <td></td>
+        </tr>
+        <tr>
             <td class="text-right">84</td>
             <td>Fir tree</td>
             <td class="text-right">8</td>
@@ -362,24 +404,6 @@ Interesting to note is that these IDs were carried over to Grand Prix 2 on a one
         <tr>
             <td class="text-right">...</td>
             <td></td>
-            <td class="text-right"></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td class="text-right">75</td>
-            <td>100 sign</td>
-            <td class="text-right"></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td class="text-right">...</td>
-            <td></td>
-            <td class="text-right"></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td class="text-right">81</td>
-            <td>Arrow left sign</td>
             <td class="text-right"></td>
             <td></td>
         </tr>
