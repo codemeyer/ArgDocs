@@ -133,13 +133,13 @@ Note that some tracks change the green (15-23) and grey (24-31) colors slightly.
             <td>16</td>
             <td>#497B2D</td>
             <td><div class="palette-color" style="background-color: #497B2D"></div></td>
-            <td></td>
+            <td>Grass color, may shift slightly between circuits</td>
         </tr>
         <tr>
             <td>17</td>
             <td>#4D7F31</td>
             <td><div class="palette-color" style="background-color: #4D7F31"></div></td>
-            <td></td>
+            <td>Grass color, may shift slightly between circuits</td>
         </tr>
         <tr>
             <td>18</td>
@@ -151,43 +151,43 @@ Note that some tracks change the green (15-23) and grey (24-31) colors slightly.
             <td>19</td>
             <td>#558739</td>
             <td><div class="palette-color" style="background-color: #558739"></div></td>
-            <td></td>
+            <td>Grass color, may shift slightly between circuits</td>
         </tr>
         <tr>
             <td>20</td>
             <td>#5A8842</td>
             <td><div class="palette-color" style="background-color: #5A8842"></div></td>
-            <td></td>
+            <td>Grass color, may shift slightly between circuits</td>
         </tr>
         <tr>
             <td>21</td>
             <td>#628C50</td>
             <td><div class="palette-color" style="background-color: #628C50"></div></td>
-            <td></td>
+            <td>Grass color, may shift slightly between circuits</td>
         </tr>
         <tr>
             <td>22</td>
             <td>#6E8F5A</td>
             <td><div class="palette-color" style="background-color: #6E8F5A"></div></td>
-            <td></td>
+            <td>Grass color, may shift slightly between circuits</td>
         </tr>
         <tr>
             <td>23</td>
             <td>#769367</td>
             <td><div class="palette-color" style="background-color: #769367"></div></td>
-            <td></td>
+            <td>Grass color, may shift slightly between circuits</td>
         </tr>
         <tr>
             <td>24</td>
             <td>#828286</td>
             <td><div class="palette-color" style="background-color: #828286"></div></td>
-            <td></td>
+            <td>Asphalt/tarmac color, may shift slightly between circuits</td>
         </tr>
         <tr>
             <td>25</td>
             <td>#86868A</td>
             <td><div class="palette-color" style="background-color: #86868A"></div></td>
-            <td></td>
+            <td>Asphalt/tarmac color, may shift slightly between circuits</td>
         </tr>
         <tr>
             <td>26</td>
@@ -199,31 +199,31 @@ Note that some tracks change the green (15-23) and grey (24-31) colors slightly.
             <td>27</td>
             <td>#8E8E92</td>
             <td><div class="palette-color" style="background-color: #8E8E92"></div></td>
-            <td></td>
+            <td>"Crowd" color in grandstand, gray during private sessions</td>
         </tr>
         <tr>
             <td>28</td>
             <td>#8E8E92</td>
             <td><div class="palette-color" style="background-color: #8E8E92"></div></td>
-            <td></td>
+            <td>Asphalt/tarmac color, may shift slightly between circuits</td>
         </tr>
         <tr>
             <td>29</td>
             <td>#929296</td>
             <td><div class="palette-color" style="background-color: #929296"></div></td>
-            <td></td>
+            <td>Asphalt/tarmac color, may shift slightly between circuits</td>
         </tr>
         <tr>
             <td>30</td>
             <td>#969696</td>
             <td><div class="palette-color" style="background-color: #969696"></div></td>
-            <td></td>
+            <td>Asphalt/tarmac color, may shift slightly between circuits</td>
         </tr>
         <tr>
             <td>31</td>
             <td>#9A9A96</td>
             <td><div class="palette-color" style="background-color: #9A9A96"></div></td>
-            <td></td>
+            <td>Asphalt/tarmac color, may shift slightly between circuits</td>
         </tr>
         <tr>
             <td>32</td>

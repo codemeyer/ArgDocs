@@ -6,7 +6,8 @@ aliases:
 
 # F1GP Media Container Files
 
-Media container files are files that contain a number of items. The items are usually
+Media container files are files that contain a number of media-related items.
+The items are usually
 images or palette data, and some video/animation-related data.
 
 <table class="table table-bordered table-striped table--tiny">
@@ -127,8 +128,8 @@ This process then continues until the end of the data has been reached.
 
 ### Large images (1769)
 
-This data seems to differ from how the small images are structured, and is not yet
-fully understood.
+This data differs from how the small images are structured, and is not
+yet properly documented.
 
 
 ### Palette info (1776)

@@ -1,15 +1,17 @@
 ---
 title: "ArgDocs: F1GP Track Section Commands"
+aliases:
+    - "/track-data/track-commands/"
 ---
 
-<!-- #alias: track-section-commands (eller tvärtom!) -->
+# Track Section Commands
 
-# Track Commands
-
-Track commands are applied to track sections and pit lane sections, and alter
+Track section commands are applied to track sections and pit lane sections, and alter
 various properties of the section.
 
 These are the various commands that appear for track sections.
+
+<!-- TODO: table with links to unique pages -->
 
 <a href="#command-80">0x80: Object placement</a><br>
 <a href="#command-81">0x81: Display distance forwards</a><br>
@@ -87,7 +89,8 @@ Places a track-side object.
     </tbody>
 </table>
 
-The "Object description offset" refers to the offset of the Object settings instance.
+The "Object description offset" refers to the offset of the
+[Object settings](/argdocs/file-formats/track/object-settings/) instance.
 Since each object setting takes 16 bytes, the offset value is the zero-based
 index of the object multiplied by 16.
 
@@ -363,8 +366,9 @@ index of the object multiplied by 16.
 <br />
 <h2 id="command-83">0x83: Disable drawing of background picture/horizon</h2>
 
-<p>This command only appears in Monaco.</p>
-
+This command only appears in Monaco, where it disables the drawing of the horizon
+shortly after leaving the Grand Hotel hairpin, so that you only see the ocean
+when driving through Portier.
 
 <h3>Arguments</h3>
 
@@ -458,7 +462,8 @@ index of the object multiplied by 16.
 <br />
 <h2 id="command-84">0x84: Enable drawing of background picture/horizon</h2>
 
-<p>This command only appears in Monaco.</p>
+This command only appears in Monaco, where it re-enables the drawing of the horizon
+after driving through Portier.
 
 
 <h3>Arguments</h3>
