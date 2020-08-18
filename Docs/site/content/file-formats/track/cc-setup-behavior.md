@@ -2,7 +2,7 @@
 title: "ArgDocs: F1GP Track File Format - Computer Car Setup and Behavior"
 ---
 
-## Computer Car Setup and Behavior (Track File Format)
+# Computer Car Setup and Behavior (Track File Format)
 
 Contains the [default computer car setup](/argdocs/track-data/default-setups/),
 and various computer car behavior.

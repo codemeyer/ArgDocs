@@ -1573,8 +1573,8 @@ i.e. the Id parameter.
     <tbody>
             <tr>
                 <td style="width: 80px;" class="text-right">17</td>
-                <td class=""></td>
-                <td class=""></td>
+                <td class="">Pit building (top)</td>
+                <td class="">The most complex 3D object in the game</td>
             </tr>
             <tr>
                 <td style="width: 80px;" class="text-right">18</td>

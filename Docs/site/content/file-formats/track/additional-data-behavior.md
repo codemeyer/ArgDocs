@@ -2,7 +2,7 @@
 title: "ArgDocs: F1GP Track File Format - Additional Data and Behavior"
 ---
 
-## Additional Data and Behavior (Track File Format)
+# Additional Data and Behavior (Track File Format)
 
 This part is always 28 bytes long.
 

@@ -2,7 +2,7 @@
 title: "ArgDocs: F1GP Track File Format - Offsets"
 ---
 
-## Offsets (Track File Format)
+# Offsets (Track File Format)
 
 The Offsets section begins at $1000.
 

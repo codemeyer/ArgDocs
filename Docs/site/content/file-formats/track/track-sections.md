@@ -9,7 +9,7 @@ of as sections of a [Scalextric](https://en.wikipedia.org/wiki/Scalextric) track
 
 The track section attributes are 10 bytes long.
 
-Each track section can have a number of related [track commands](/argdocs/track-data/track-commands/) defined.
+Each track section can have a number of related [track commands](/argdocs/track-data/track-section-commands/) defined.
 See below.
 
 <table class="table table-bordered table-striped table--medium">

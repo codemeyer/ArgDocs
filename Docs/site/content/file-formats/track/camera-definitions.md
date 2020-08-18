@@ -2,7 +2,7 @@
 title: "ArgDocs: F1GP Track File Format - Camera Definitions"
 ---
 
-## Camera Definitions (Track File Format)
+# Camera Definitions (Track File Format)
 
 By default, the game places a camera at the left side of every 16 track length units. The command definitions
 here can then move them further back, swap them to the right side, or just remove them.
