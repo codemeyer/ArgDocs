@@ -25,5 +25,6 @@ Pages relating to track-specific data and information.
 - [Default Computer Car Setups](/argdocs/track-data/default-setups/)
 - [Misc Track Data](/argdocs/track-data/misc-track-data/)
 - [Units](/argdocs/track-data/units/)
+- [Pit Lane Commands](/argdocs/track-data/pit-lane-commands/)
 
 <!-- TODO: data dumps -->

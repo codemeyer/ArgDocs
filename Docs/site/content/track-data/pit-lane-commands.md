@@ -34,8 +34,8 @@ of which track section commands appear in which of the sections.
         <tr>
             <td>13</td>
             <td>
-                <a href="/argdocs/track-data/track-section-commands/0xA0">0xA0</a> - Pit Lane Fences End<br />
-                <a href="/argdocs/track-data/track-section-commands/0x9E">0x9E</a> - Unknown Pit Lane Marker 4
+                <a href="/argdocs/track-data/track-section-commands/0xa0">0xA0</a> - Pit Lane Fences End<br />
+                <a href="/argdocs/track-data/track-section-commands/0x9e">0x9E</a> - Unknown Pit Lane Marker 4
             </td>
         </tr>
         <tr>
@@ -63,14 +63,14 @@ of which track section commands appear in which of the sections.
             <td>8</td>
             <td>
                 <a href="/argdocs/track-data/track-section-commands/0x96">0x96</a> - Pit Lane Start<br />
-                <a href="/argdocs/track-data/track-section-commands/0x8A">0x8A</a> - Track Markings Type A (twice)<br />
-                <a href="/argdocs/track-data/track-section-commands/0x8B">0x8B</a> - Track Markings Type B (twice)
+                <a href="/argdocs/track-data/track-section-commands/0x8a">0x8A</a> - Track Markings Type A (twice)<br />
+                <a href="/argdocs/track-data/track-section-commands/0x8b">0x8B</a> - Track Markings Type B (twice)
             </td>
         </tr>
         <tr>
             <td>7</td>
             <td>
-                <a href="/argdocs/track-data/track-section-commands/0x9C">0x9C</a> - Unknown Pit Lane Marker 2
+                <a href="/argdocs/track-data/track-section-commands/0x9c">0x9C</a> - Unknown Pit Lane Marker 2
             </td>
         </tr>
         <tr>
@@ -84,7 +84,7 @@ of which track section commands appear in which of the sections.
         <tr>
             <td>4</td>
             <td>
-                <a href="/argdocs/track-data/track-section-commands/0x9F">0x9F</a> - Pit Lane Fences Start
+                <a href="/argdocs/track-data/track-section-commands/0x9f">0x9F</a> - Pit Lane Fences Start
             </td>
         </tr>
         <tr>
@@ -102,7 +102,7 @@ of which track section commands appear in which of the sections.
         <tr>
             <td>0</td>
             <td>
-                <a href="/argdocs/track-data/track-section-commands/0x9B">0x9B</a> - Unknown Pit Lane Marker 1
+                <a href="/argdocs/track-data/track-section-commands/0x9b">0x9B</a> - Unknown Pit Lane Marker 1
             </td>
         </tr>
     </tbody>
