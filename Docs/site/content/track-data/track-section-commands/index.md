@@ -93,42 +93,42 @@ These are the various commands that can appear for a track or pit lane section.
         </tr>
         <tr>
             <td>
-                <a href="/argdocs/track-data/track-section-commands/0x8A/">0x8A</a>
+                <a href="/argdocs/track-data/track-section-commands/0x8a/">0x8A</a>
             </td>
             <td>Track Markings Type A</td>
             <td class="text-right">6</td>
         </tr>
         <tr>
             <td>
-                <a href="/argdocs/track-data/track-section-commands/0x8B/">0x8B</a>
+                <a href="/argdocs/track-data/track-section-commands/0x8b/">0x8B</a>
             </td>
             <td>Track Markings Type B</td>
             <td class="text-right">6</td>
         </tr>
         <tr>
             <td>
-                <a href="/argdocs/track-data/track-section-commands/0x8C/">0x8C</a>
+                <a href="/argdocs/track-data/track-section-commands/0x8c/">0x8C</a>
             </td>
             <td>Changes unknown element on the left?</td>
             <td class="text-right">2</td>
         </tr>
         <tr>
             <td>
-                <a href="/argdocs/track-data/track-section-commands/0x8D/">0x8D</a>
+                <a href="/argdocs/track-data/track-section-commands/0x8d/">0x8D</a>
             </td>
             <td>Changes unknown element on the right?</td>
             <td class="text-right">2</td>
         </tr>
         <tr>
             <td>
-                <a href="/argdocs/track-data/track-section-commands/0x8E/">0x8E</a>
+                <a href="/argdocs/track-data/track-section-commands/0x8e/">0x8E</a>
             </td>
             <td>Left kerb starts</td>
             <td class="text-right">3</td>
         </tr>
         <tr>
             <td>
-                <a href="/argdocs/track-data/track-section-commands/0x8F/">0x8F</a>
+                <a href="/argdocs/track-data/track-section-commands/0x8f/">0x8F</a>
             </td>
             <td>Right kerb starts</td>
             <td class="text-right">3</td>
@@ -205,70 +205,70 @@ These are the various commands that can appear for a track or pit lane section.
         </tr>
         <tr>
             <td>
-                <a href="/argdocs/track-data/track-section-commands/0x9A/">0x9A</a>
+                <a href="/argdocs/track-data/track-section-commands/0x9a/">0x9A</a>
             </td>
             <td>Custom fence height</td>
             <td class="text-right">3</td>
         </tr>
         <tr>
             <td>
-                <a href="/argdocs/track-data/track-section-commands/0x9B/">0x9B</a>
+                <a href="/argdocs/track-data/track-section-commands/0x9b/">0x9B</a>
             </td>
             <td>Unknown pit lane marker 1</td>
             <td class="text-right">1</td>
         </tr>
         <tr>
             <td>
-                <a href="/argdocs/track-data/track-section-commands/0x9C/">0x9C</a>
+                <a href="/argdocs/track-data/track-section-commands/0x9c/">0x9C</a>
             </td>
             <td>Unknown pit lane marker 2</td>
             <td class="text-right">1</td>
         </tr>
         <tr>
             <td>
-                <a href="/argdocs/track-data/track-section-commands/0x9D/">0x9D</a>
+                <a href="/argdocs/track-data/track-section-commands/0x9d/">0x9D</a>
             </td>
             <td>Unknown pit lane marker 3</td>
             <td class="text-right">1</td>
         </tr>
         <tr>
             <td>
-                <a href="/argdocs/track-data/track-section-commands/0x9E/">0x9E</a>
+                <a href="/argdocs/track-data/track-section-commands/0x9e/">0x9E</a>
             </td>
             <td>Unknown pit lane marker 4</td>
             <td class="text-right">1</td>
         </tr>
         <tr>
             <td>
-                <a href="/argdocs/track-data/track-section-commands/0x9F/">0x9F</a>
+                <a href="/argdocs/track-data/track-section-commands/0x9f/">0x9F</a>
             </td>
             <td>Pit lane fences start</td>
             <td class="text-right">1</td>
         </tr>
         <tr>
             <td>
-                <a href="/argdocs/track-data/track-section-commands/0xA0/">0xA0</a>
+                <a href="/argdocs/track-data/track-section-commands/0xa0/">0xA0</a>
             </td>
             <td>Pit lane fences end</td>
             <td class="text-right">1</td>
         </tr>
         <tr>
             <td>
-                <a href="/argdocs/track-data/track-section-commands/0xA1/">0xA1</a>
+                <a href="/argdocs/track-data/track-section-commands/0xa1/">0xA1</a>
             </td>
             <td>Pit lane entry, join right lane fences</td>
             <td class="text-right">1</td>
         </tr>
         <tr>
             <td>
-                <a href="/argdocs/track-data/track-section-commands/0xA2/">0xA2</a>
+                <a href="/argdocs/track-data/track-section-commands/0xa2/">0xA2</a>
             </td>
             <td>Pit lane entry, join left lane fences</td>
             <td class="text-right">1</td>
         </tr>
         <tr>
             <td>
-                <a href="/argdocs/track-data/track-section-commands/0xA3/">0xA3</a>
+                <a href="/argdocs/track-data/track-section-commands/0xa3/">0xA3</a>
             </td>
             <td>Pit lane exit, join right lane fences</td>
             <td class="text-right">1</td>
@@ -282,56 +282,56 @@ These are the various commands that can appear for a track or pit lane section.
         </tr>
         <tr>
             <td>
-                <a href="/argdocs/track-data/track-section-commands/0xA5/">0xA5</a>
+                <a href="/argdocs/track-data/track-section-commands/0xa5/">0xA5</a>
             </td>
             <td>Change sign of first two sector arguments</td>
             <td class="text-right">1</td>
         </tr>
         <tr>
             <td>
-                <a href="/argdocs/track-data/track-section-commands/0xA6/">0xA6</a>
+                <a href="/argdocs/track-data/track-section-commands/0xa6/">0xA6</a>
             </td>
             <td>Set unknown section flags 1</td>
             <td class="text-right">3</td>
         </tr>
         <tr>
             <td>
-                <a href="/argdocs/track-data/track-section-commands/0xA7/">0xA7</a>
+                <a href="/argdocs/track-data/track-section-commands/0xa7/">0xA7</a>
             </td>
             <td>Set unknown section flags 2</td>
             <td class="text-right">3</td>
         </tr>
         <tr>
             <td>
-                <a href="/argdocs/track-data/track-section-commands/0xA8/">0xA8</a>
+                <a href="/argdocs/track-data/track-section-commands/0xa8/">0xA8</a>
             </td>
             <td>Section that triggers the chequered flag</td>
             <td class="text-right">1</td>
         </tr>
         <tr>
             <td>
-                <a href="/argdocs/track-data/track-section-commands/0xA9/">0xA9</a>
+                <a href="/argdocs/track-data/track-section-commands/0xa9/">0xA9</a>
             </td>
             <td>Pit lane view distance</td>
             <td class="text-right">2</td>
         </tr>
         <tr>
             <td>
-                <a href="/argdocs/track-data/track-section-commands/0xAA/">0xAA</a>
+                <a href="/argdocs/track-data/track-section-commands/0xaa/">0xAA</a>
             </td>
             <td>Computer cars pit lane modifier?</td>
             <td class="text-right">4</td>
         </tr>
         <tr>
             <td>
-                <a href="/argdocs/track-data/track-section-commands/0xAB/">0xAB</a>
+                <a href="/argdocs/track-data/track-section-commands/0xab/">0xAB</a>
             </td>
             <td>Unknown, maybe unused</td>
             <td class="text-right">3</td>
         </tr>
         <tr>
             <td>
-                <a href="/argdocs/track-data/track-section-commands/0xAC/">0xAC</a>
+                <a href="/argdocs/track-data/track-section-commands/0xac/">0xAC</a>
             </td>
             <td>Palette change</td>
             <td class="text-right">5</td>
