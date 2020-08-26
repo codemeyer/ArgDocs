@@ -362,6 +362,6 @@ When cars are far away, the "special" McLaren car shape appears in the same way 
 
 ## Helmet Colors
 
-Most helmets are made up of 16 different bytes. In non-decompressed EXE files, the expections
+Most helmets are made up of 16 different bytes. In non-decompressed EXE files, the exceptions
 to this are the helmets for drivers with numbers #13, #16, #36, #37, #38, #39 and #40. These
 drivers have helmets where the bottom two-thirds will always have the same color.

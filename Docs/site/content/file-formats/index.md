@@ -13,6 +13,7 @@ The F1GP file formats currently documented here are:
 - [Setup Files (single)](/argdocs/file-formats/setups-single/)
 - [Setup Files (multi)](/argdocs/file-formats/setups-multi/)
 - [Media Container Files](/argdocs/file-formats/media-containers/)
+- [Preferences File](/argdocs/file-formats/preferences/)
 - [Tracks](/argdocs/file-formats/track/)
 
 Other file formats are in progress.

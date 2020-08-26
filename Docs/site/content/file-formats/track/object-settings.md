@@ -43,10 +43,10 @@ Object settings are read until the values specified in the $100C track data head
         <td>Possibly color related for 3D objects (bit flags?)</td>
     </tr>
     <tr>
-        <td>Distance from Track</td>
+        <td>Distance from Track Center</td>
         <td>short</td>
         <td>
-            The distance between the object and the center of the track, negative values
+            The distance between the object and the center of the track. Negative values
             indicate left side, positive values indicate right side
         </td>
     </tr>

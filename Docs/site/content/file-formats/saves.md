@@ -32,7 +32,7 @@ the [F1GP Saved Games(during races)](/argdocs/file-formats/saves-racing/) page.
 
 ## Unknown
 
-The first 827 bytes contain the number of races completed, plus a lot of
+The first 828 bytes contain the number of races completed, plus a lot of
 (so far) unknown information, but it probably contains information about preferences
 such as race length, session lengths, possibility of rain, etc.
 

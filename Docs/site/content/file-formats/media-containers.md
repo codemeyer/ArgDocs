@@ -267,7 +267,7 @@ are stored in TRACKPIX.DAT.
         </tr>
         <tr>
             <td class="text-right">17</td>
-            <td>Car with Agip logos show from behind</td>
+            <td>Car with Agip logos shown from behind</td>
             <td></td>
             <td></td>
         </tr>
