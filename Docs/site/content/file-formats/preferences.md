@@ -42,8 +42,8 @@ contain presets based on the speed of the computer, applied during setup.
     <tbody>
         <tr>
             <td class="text-right">855</td>
-            <td>Frame Rate (FPS) flag?</td>
-            <td>02 when Frame Rate (FPS) is 23.0 or lower, 03 when FPS is 25.0</td>
+            <td>Frame Rate (fps) flag?</td>
+            <td>02 when Frame Rate (fps) is 23.0 or lower, 03 when fps is 25.0</td>
         </tr>
         <tr>
             <td class="text-right">1034</td>
@@ -58,18 +58,28 @@ contain presets based on the speed of the computer, applied during setup.
         <tr>
             <td class="text-right">1130</td>
             <td>Indicates if a name file should be loaded automatically</td>
-            <td>0x00 = no, 0xFF = yes</td>
+            <td>
+                0x00 = no<br />
+                0xFF = yes
+            </td>
         </tr>
         <tr>
             <td class="text-right">1131</td>
             <td>Indicates if a setup file should be loaded automatically</td>
-            <td>0x00 = no, 0xFF = yes</td>
+            <td>
+                0x00 = no<br />
+                0xFF = yes
+            </td>
         </tr>
         <tr>
             <td class="text-right">1160</td>
-            <td>Frame Rate (FPS)</td>
+            <td>Frame Rate (fps)</td>
             <td>
-                8.1 fps = 0x25, 8.3 fps = 0x24, 23.0 fps = 0D, 25.0 fps = 0C
+                0x25 = 8.1 fps<br />
+                0x24 = 8.3 fps<br />
+                ...<br />
+                0x0D = 23.0 fps<br />
+                0x0C = 25.0 fps
             </td>
         </tr>
     </tbody>
