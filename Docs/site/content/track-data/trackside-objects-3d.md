@@ -122,7 +122,7 @@ i.e. the Id parameter.
 
 <a id="phoenix-usa"></a>
 
-<table class="table table-bordered table-striped table--medium">
+<table class="table table-bordered table-striped table--large">
     <thead>
         <tr>
             <th class="column-10 text-right">RefId</th>
@@ -349,7 +349,7 @@ i.e. the Id parameter.
 
 <a id="interlagos-brazil"></a>
 
-<table class="table table-bordered table-striped table--medium">
+<table class="table table-bordered table-striped table--large">
     <thead>
         <tr>
             <th class="column-10 text-right">RefId</th>
@@ -529,7 +529,7 @@ i.e. the Id parameter.
 
 <a id="imola-san-marino"></a>
 
-<table class="table table-bordered table-striped table--medium">
+<table class="table table-bordered table-striped table--large">
     <thead>
         <tr>
             <th class="column-10 text-right">RefId</th>
@@ -726,7 +726,7 @@ i.e. the Id parameter.
 
 <a id="monte-carlo-monaco"></a>
 
-<table class="table table-bordered table-striped table--medium">
+<table class="table table-bordered table-striped table--large">
     <thead>
         <tr>
             <th class="column-10 text-right">RefId</th>
@@ -995,7 +995,7 @@ i.e. the Id parameter.
 
 <a id="montreal-canada"></a>
 
-<table class="table table-bordered table-striped table--medium">
+<table class="table table-bordered table-striped table--large">
     <thead>
         <tr>
             <th class="column-10 text-right">RefId</th>
@@ -1168,7 +1168,7 @@ i.e. the Id parameter.
 
 <a id="mexico-city-mexico"></a>
 
-<table class="table table-bordered table-striped table--medium">
+<table class="table table-bordered table-striped table--large">
     <thead>
         <tr>
             <th class="column-10 text-right">RefId</th>
@@ -1299,7 +1299,7 @@ i.e. the Id parameter.
 
 <a id="magny-cours-france"></a>
 
-<table class="table table-bordered table-striped table--medium">
+<table class="table table-bordered table-striped table--large">
     <thead>
         <tr>
             <th class="column-10 text-right">RefId</th>
@@ -1466,7 +1466,7 @@ i.e. the Id parameter.
 
 <a id="silverstone-great-britain"></a>
 
-<table class="table table-bordered table-striped table--medium">
+<table class="table table-bordered table-striped table--large">
     <thead>
         <tr>
             <th class="column-10 text-right">RefId</th>
@@ -1634,7 +1634,7 @@ i.e. the Id parameter.
 <a id="hockenheim-germany"></a>
 <!-- F1CT09.DAT -->
 
-<table class="table table-bordered table-striped table--medium">
+<table class="table table-bordered table-striped table--large">
     <thead>
         <tr>
             <th class="column-10 text-right">RefId</th>
@@ -1820,7 +1820,7 @@ i.e. the Id parameter.
 <a id="hungaroring-hungary"></a>
 <!-- F1CT10.DAT -->
 
-<table class="table table-bordered table-striped table--medium">
+<table class="table table-bordered table-striped table--large">
     <thead>
         <tr>
             <th class="column-10 text-right">RefId</th>
@@ -1994,7 +1994,7 @@ i.e. the Id parameter.
 <a id="spa-francorchamps-belgium"></a>
 <!-- F1CT11.DAT -->
 
-<table class="table table-bordered table-striped table--medium">
+<table class="table table-bordered table-striped table--large">
     <thead>
         <tr>
             <th class="column-10 text-right">RefId</th>
@@ -2234,7 +2234,7 @@ i.e. the Id parameter.
 <a id="monza-italy"></a>
 <!-- F1CT12.DAT -->
 
-<table class="table table-bordered table-striped table--medium">
+<table class="table table-bordered table-striped table--large">
     <thead>
         <tr>
             <th class="column-10 text-right">RefId</th>
@@ -2396,7 +2396,7 @@ i.e. the Id parameter.
 <a id="estoril-portugal"></a>
 <!-- F1CT13.DAT -->
 
-<table class="table table-bordered table-striped table--medium">
+<table class="table table-bordered table-striped table--large">
     <thead>
         <tr>
             <th class="column-10 text-right">RefId</th>
@@ -2563,7 +2563,7 @@ i.e. the Id parameter.
 
 <a id="barcelona-spain"></a>
 
-<table class="table table-bordered table-striped table--medium">
+<table class="table table-bordered table-striped table--large">
     <thead>
         <tr>
             <th class="column-10 text-right">RefId</th>
@@ -2754,7 +2754,7 @@ i.e. the Id parameter.
 
 <a id="suzuka-japan"></a>
 
-<table class="table table-bordered table-striped table--medium">
+<table class="table table-bordered table-striped table--large">
     <thead>
         <tr>
             <th class="column-10 text-right">RefId</th>
@@ -2951,7 +2951,7 @@ i.e. the Id parameter.
 
 <a id="adelaide-australia"></a>
 
-<table class="table table-bordered table-striped table--medium">
+<table class="table table-bordered table-striped table--large">
     <thead>
         <tr>
             <th class="column-10 text-right">RefId</th>
