@@ -7,9 +7,15 @@ title: "ArgDocs: F1GP Track File Format - Object Shape Examples"
 
 The following is an example of an ad billboard in the Phoenix track.
 
-<!-- TODO: image -->
+From one side:
 
-The data is 402 bytes long.
+<img src="/argdocs/images/object-shape-example-1a.png" alt="Object shape example" class="img-fluid" />
+
+And the other side:
+
+<img src="/argdocs/images/object-shape-example-1b.png" alt="Object shape example" class="img-fluid" />
+
+The total length of the data that describes this object is 402 bytes.
 
 
 ## Initial Data
@@ -90,7 +96,7 @@ The data is 402 bytes long.
 </table>
 
 Since the scale value offset points to the location we have now reached, there is no additional
-10 bytes of unknown data, which occurs on a few tracks.
+10 bytes of unknown data, which occurs in a few objects on some tracks.
 
 
 ## Scale Values
@@ -175,7 +181,7 @@ Since the scale value offset points to the location we have now reached, there i
         </tr>
         <tr>
             <td>03</td>
-            <td>Base color of polygon 4 (yellow, but can be affect by "Unknown" value in an object setting)</td>
+            <td>Base color of polygon 4 (yellow, but can be affected by "Unknown" value in an object setting)</td>
         </tr>
         <tr>
             <td>04 FD FE 01</td>

@@ -153,11 +153,59 @@ it is easy to resize an object by simply changing a single scale value.
 
 ### Graphical Elements data
 
-Defines polygons, bitmaps, etc.
+A graphical element is either a polygon, a bitmap or a line.
 
-Each GraphicElement is an N-gon with 3 to 12 sides, plus twinned polygons and bitmaps.
+_NB: This data is still being investigated and understood, it is possible that
+some of the info here is incorrect, and/or will be amended soon._
+
 After a small header which contains which points to calculate, then comes one byte
-equal to 0xFF, and after that each element in itself. Each polygon has the same structure:
+equal to 0xFF, and after that each element in itself.
+
+To figure out if the upcoming data is a polygon, a bitmap or a line, first read
+the byte.
+
+
+<table class="table table-bordered table-striped table--small">
+    <thead>
+        <tr>
+            <th class="column-30">Value</th>
+            <th>Type</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                0x80<br />
+                0x88<br />
+                0xD0<br />
+            </td>
+            <td><a href="#bitmap">Bitmap</a></td>
+        </tr>
+        <tr>
+            <td>
+                0x82<br />
+                0x86<br />
+            </td>
+            <td><a href="#bitmap">Bitmap</a> (extended)</td>
+        </tr>
+        <tr>
+            <td>0xA0 (160)</td>
+            <td><a href="#line">Line</a></td>
+        </tr>
+        <tr>
+            <td>Any other value</td>
+            <td><a href="#polygon">Polygon</a>, value indicates color (see below)</td>
+        </tr>
+    </tbody>
+</table>
+
+
+#### Polygon
+
+Each polygon has the same structure, and can contain between 3 and 12 sides
+(plus twinned polygons).
+
+Sides are read until the end of the list is reached (at 0x00).
 
 <table class="table table-bordered table-striped table--medium">
     <thead>
@@ -172,7 +220,8 @@ equal to 0xFF, and after that each element in itself. Each polygon has the same 
             <td>Color</td>
             <td>unsigned byte</td>
             <td>
-                Palette? Possibly affected by another value in the
+                The color in the <a href="/argdocs/misc/palette/">palette</a>.
+                May be affected by the <em>Unknown</em> value in the
                 <a href="/argdocs/file-formats/track/object-settings/">object setting</a>
                 that implements the object shape.
             </td>
@@ -194,8 +243,100 @@ Each side points to a vector, so to obtain the points that make the polygon,
 according to sign you just pick the start point (+ sign)
 or the end point (- sign) for each.
 
-When the object contains a reference to a "flat" object (such as a pit crew or
-a tree) then the definition may be slightly different.
+
+#### Bitmap
+
+Bitmap images can be placed in the 3D objects.
+
+For example, each pillar in the tunnel in Monaco is a bitmap.
+
+The purpose of the initial value of the bitmap (0x80, 0x88, 0xD0 or - for extended bitmaps - 0x82 and 0x86)
+is not known.
+
+The total length of a bitmap element (including the initial flag) is either 4 ("normal" bitmaps)
+or 6 bytes ("extended" bitmaps).
+
+<table class="table table-bordered table-striped table--medium">
+    <thead>
+        <tr>
+            <th>Item</th>
+            <th>Size</th>
+            <th class="column-50">Comment</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Flag</td>
+            <td>byte</td>
+            <td>
+                0x80, 0x88 or 0xD0 for "normal" bitmaps,
+                0x82 or 0x86 for extended bitmaps
+            </td>
+        </tr>
+        <tr>
+            <td>Point</td>
+            <td>byte</td>
+            <td>The <a href="#point-data">point</a> where the bitmap is placed.</td>
+        </tr>
+        <tr>
+            <td>Unknown flag</td>
+            <td>byte</td>
+            <td>Various values, e.g. 0xFF</td>
+        </tr>
+        <tr>
+            <td>Bitmap index</td>
+            <td>byte</td>
+            <td>The <a href="/argdocs/track-data/trackside-objects">index of the bitmap</a></td>
+        </tr>
+        <tr>
+            <td>Additional data 1</td>
+            <td>byte</td>
+            <td>Purpose unknown, only exists in extended bitmaps</a></td>
+        </tr>
+        <tr>
+            <td>Additional data 2</td>
+            <td>byte</td>
+            <td>Purpose unknown, only exists in extended bitmaps</a></td>
+        </tr>
+    </tbody>
+</table>
+
+
+#### Line
+
+A line is a single black line from one point to another.
+
+The length of a line definition is always 3 bytes.
+
+<table class="table table-bordered table-striped table--medium">
+    <thead>
+        <tr>
+            <th>Item</th>
+            <th>Size</th>
+            <th class="column-50">Comment</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Flag</td>
+            <td>byte</td>
+            <td>Always 0xA0</td>
+        </tr>
+        <tr>
+            <td>Unknown flag</td>
+            <td>byte</td>
+            <td>Always 8, except for a single object where it is 0.</td>
+        </tr>
+        <tr>
+            <td>Vector? Point?</td>
+            <td>byte</td>
+            <td>Indicates a line</td>
+        </tr>
+    </tbody>
+</table>
+
+After an element has been read and parsed, read the next byte to identify the
+next kind of element, and so on.
 
 
 ### Point data
@@ -203,7 +344,8 @@ a tree) then the definition may be slightly different.
 There are two types of points. Those that use scale values for their X and Y coordinates,
 and those that simply reference another point to use the same X and Y coordinates as the original point.
 
-The Z coordinate can always be set separately.
+The Z coordinate can always be set separately for each point, both for scale points and
+reference points.
 
 _This section will be expanded_
 

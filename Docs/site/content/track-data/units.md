@@ -30,6 +30,13 @@ For the pit lane, 32768 / 20 (=1638.4)
 So for example, a track width of 1900 is approximately 16.9 meters.
 
 
+## Object Units and Size
+
+According to a GP2 tutorial, 1024 object units are exactly as long as one track length unit.
+As noted previously, a TLU is 16 feet or 4.87 metres. That makes one object unit equal
+to 4.75 millimetres, or 3/16th of an inch.
+
+
 ## Verge width
 
 The verge width is relative to the track width. This means that a verge width of 5 will be larger
